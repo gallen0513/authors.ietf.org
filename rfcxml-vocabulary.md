@@ -1,4 +1,22 @@
----
+[**\<rfc\>**](/rfcxml- annotation =
+     element annotation {
+       attribute xml:base { text }?,
+       attribute xml:lang { text }?,
+       (text
+        | bcp14
+        | cref
+        | em
+        | eref
+        | iref
+        | relref
+        | spanx
+        | strong
+        | sub
+        | sup
+        | tt
+        | u
+        | xref)*
+     }
 title: RFCXML vocabulary reference
 description: 
 published: true
